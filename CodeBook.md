@@ -39,27 +39,27 @@ After setting the source directory for the files, read into tables the data loca
 </ul>
 
 <ol>
-  <li>Combine all test and training data into 3 separate tables for activity, subject and feature</li>
+  <li>Combine all test and training data into 3 separate tables for activity (dataActvity), subject (dataSubject) and feature (dataFeatures)</li>
   <li>Label columns appropriately for each 3 tables</li>
-  <li>Combine activity and subject tables into 1 table (dataMerge)</li>
-  <li>Combine dataMerge with features table (dataFinal)</li>
+  <li>Combine dataActivity and dataSubject tables into one table (dataMerge)</li>
+  <li>Combine dataMerge with dataFeatures (dataFinal)</li>
 </ol>
 
 ### Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
 <ol>
-  <li>Create list of features using "mean()" and "std()" in the name using grep</li>
+  <li>Create list of features using "mean()" and "std()" in the name using grep (mean_stdFeatures)</li>
   <li>Create subset of data based on selected names from the list of features (dataSub_meanstd)</li>
 </ol>
 
 ### Section 3. Use descriptive activity names to name the activities in the data set
 
-Apply actitivy descriptions from "activity_labels.txt" to "dataSub_meanstd$activity"
+Apply activity descriptions from "activity_labels.txt" to "dataSub_meanstd$activity"
 
 ### Section 4. Appropriately label the data set with descriptive activity names.
 
-Use gsub function for pattern replacement to clean up the data labels.
+Use gsub function for pattern replacement to clean up the data labels of dataSub_meanstd.
 
 ### Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Per the project instructions, produce a data set with the average of each variable for each activity and each subject
+Per the project instructions, produce a data set with the average of each variable for each activity and each subject (dataTidy.txt)
