@@ -56,10 +56,10 @@ After setting the source directory for the files, read into tables the data loca
 
 Apply actitivy descriptions from "activity_labels.txt" to "dataSub_meanstd$activity"
 
-Section 4. Appropriately label the data set with descriptive activity names.
+### Section 4. Appropriately label the data set with descriptive activity names.
 
 Use gsub function for pattern replacement to clean up the data labels.
 
-Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+### Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+Per the project instructions, produce a data set with the average of each variable for each activity and each subject
