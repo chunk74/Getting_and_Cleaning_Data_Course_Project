@@ -25,7 +25,7 @@ For each record in the dataset it is provided:
   <li>A 561-feature vector with time and frequency domain variables.</li>
   <li>Its activity label.</li>
   <li>An identifier of the subject who carried out the experiment.</li>
-
+</ul>
 ### Section 1. Merge the training and the test sets to create one data set.
 
 After setting the source directory for the files, read into tables the data located in:
