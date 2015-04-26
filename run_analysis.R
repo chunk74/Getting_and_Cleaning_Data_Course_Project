@@ -101,8 +101,8 @@ names(dataSub_meanstd) <- gsub("Gyro",     "Gyroscope",     names(dataSub_meanst
 names(dataSub_meanstd) <- gsub("Mag",      "Magnitude",     names(dataSub_meanstd))
 names(dataSub_meanstd) <- gsub("BodyBody", "Body",          names(dataSub_meanstd))
 names(dataSub_meanstd) <- gsub("\\()",     "",              names(dataSub_meanstd))
-names(dataSub_meanstd) <- gsub("-std",     "-StdDev",        names(dataSub_meanstd))
-names(dataSub_meanstd) <- gsub("-mean",    "-Mean",          names(dataSub_meanstd))
+names(dataSub_meanstd) <- gsub("-std",     "-StdDev",       names(dataSub_meanstd))
+names(dataSub_meanstd) <- gsub("-mean",    "-Mean",         names(dataSub_meanstd))
 
 ###################################################################################################
 #
