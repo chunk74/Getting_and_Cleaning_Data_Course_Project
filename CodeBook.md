@@ -38,15 +38,23 @@ After setting the source directory for the files, read into tables the data loca
   <li>X_train.txt</li>
 </ul>
 
-Assign column names and merge to create one data set.
+<ol>
+  <li>Combine all test and training data into 3 separate tables for activity, subject and feature</li>
+  <li>Label columns appropriately for each 3 tables</li>
+  <li>Combine activity and subject tables into 1 table (dataMerge)</li>
+  <li>Combine dataMerge with features table (dataFinal)</li>
+</ol>
 
-Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
+### Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
-Create a logcal vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others. Subset this data to keep only the necessary columns.
+<ol>
+  <li>Create list of features using "mean()" and "std()" in the name using grep</li>
+  <li>Create subset of data based on selected names from the list of features (dataSub_meanstd)</li>
+</ol>
 
-Section 3. Use descriptive activity names to name the activities in the data set
+### Section 3. Use descriptive activity names to name the activities in the data set
 
-Merge data subset with the activityType table to cinlude the descriptive activity names
+Apply actitivy descriptions from "activity_labels.txt" to "dataSub_meanstd$activity"
 
 Section 4. Appropriately label the data set with descriptive activity names.
 
