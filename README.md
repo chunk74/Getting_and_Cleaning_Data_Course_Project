@@ -13,13 +13,20 @@ The source data for this project can be found <a href = https://d396qusza40orc.c
 
 ### Making Modifications to This Script
 
-Once you have obtained and unzipped the source files, you will need to make one modification to the R file before you can process the data. Note that on line 25 of run_analysis.R, you will set the path of the working directory to reflect the location of the source files in your own directory.
+Once you have downloaded and unzipped the source files, you will need to make one modification to the R file before you can process the data. On line 25 of run_analysis.R, you will set the path of the working directory to your desired working directory.
 
 ### Project Summary
 
 The following is a summary description of the project instructions
 
-You should create one R script called run_analysis.R that does the following. 1. Merges the training and the test sets to create one data set. 2. Extracts only the measurements on the mean and standard deviation for each measurement. 3. Uses descriptive activity names to name the activities in the data set 4. Appropriately labels the data set with descriptive activity names. 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+You should create one R script called run_analysis.R that does the following:
+<ol>
+  <li>Merges the training and the test sets to create one data set.</li>
+  <li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
+  <li>Uses descriptive activity names to name the activities in the data set.</li>
+  <li>Appropriately labels the data set with descriptive activity names.</li>
+  <li>Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+</ol
 
 ### Additional Information
 
