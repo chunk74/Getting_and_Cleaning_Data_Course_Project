@@ -10,7 +10,7 @@ The source data for this project can be found <a href = https://d396qusza40orc.c
 
 ### Making Modifications to This Script
 
-Once you have downloaded and unzipped the source files, you will need to make one modification to the R file before you can process the data. On line 25 of run_analysis.R, set the path of the working directory to your desired working directory.
+You will need to make one modification to the R file before you can process the data. On line 25 of run_analysis.R, set the path of the working directory to your desired working directory.
 
 ### Project Summary
 
