@@ -1,8 +1,5 @@
 ### Getting and Cleaning Data Course Project
 
-Cliff Hayes
-
-
 This is the repo for my submission of the course project for the Coursera Getting and Cleaning Data class.
 
 ### Overview
